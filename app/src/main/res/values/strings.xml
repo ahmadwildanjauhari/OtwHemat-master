@@ -23,4 +23,5 @@
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="konfirmasi">Konfirmasi Password</string>
+    <string name="todo">TODO</string>
 </resources>
