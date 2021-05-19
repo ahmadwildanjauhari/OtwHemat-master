@@ -2,20 +2,20 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/nisasabyun">
+    android:background="@color/birumuda">
 
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
+        android:layout_marginStart="80dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="140dp"
+        android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
         android:layout_marginBottom="160dp"
+        android:contentDescription="@string/todo"
         android:scaleType="fitXY"
-        android:src="@drawable/lagi"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="60dp"
-        android:contentDescription="@string/todo" />
+        android:src="@drawable/lagi" />
 
     <ProgressBar
         android:id="@+id/progressBar1"
