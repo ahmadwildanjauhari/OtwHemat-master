@@ -22,8 +22,7 @@
         android:hint="@string/email"
         android:textColor="@color/hitam"
         android:textSize="15sp"
-        android:autofillHints=""
-        />
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/password"
