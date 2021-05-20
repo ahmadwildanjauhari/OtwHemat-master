@@ -25,4 +25,10 @@
     <string name="konfirmasi">Konfirmasi Password</string>
     <string name="todo">TODO</string>
     <string name="todo1">TODO</string>
+    <string name="grafiklunas">Grafik Lunas</string>
+    <string name="grafikhutang">Grafik Hutang</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="next">Next</string>
+    <string name="find_us">Find Us</string>
 </resources>
