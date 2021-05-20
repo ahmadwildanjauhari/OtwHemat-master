@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.malakdianadewi.moneymanager.menu"
+    tools:context="com.example.malakdianadewi.butang.menu"
     android:background="@drawable/nisasabyun">
 
     <android.support.design.widget.AppBarLayout

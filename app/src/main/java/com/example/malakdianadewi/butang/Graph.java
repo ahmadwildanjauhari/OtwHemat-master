@@ -1,4 +1,4 @@
-package com.example.malakdianadewi.moneymanager;
+package com.example.malakdianadewi.butang;
 
 import android.content.Intent;
 import android.database.Cursor;

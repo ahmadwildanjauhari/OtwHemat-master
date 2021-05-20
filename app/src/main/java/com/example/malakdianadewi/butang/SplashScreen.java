@@ -1,4 +1,4 @@
-package com.example.malakdianadewi.moneymanager;
+package com.example.malakdianadewi.butang;
 
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;

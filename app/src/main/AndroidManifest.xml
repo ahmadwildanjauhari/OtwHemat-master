@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.malakdianadewi.moneymanager">
+    package="com.example.malakdianadewi.butang">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -25,19 +25,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpdateCatatan" />
-        <activity android:name=".LihatCatatan" />
-        <activity android:name=".Login"></activity>
-        <activity android:name=".Register" />
-        <activity android:name=".tambahCatatan" />
+        <activity android:name="com.example.malakdianadewi.butang.UpdateCatatan" />
+        <activity android:name="com.example.malakdianadewi.butang.LihatCatatan" />
+        <activity android:name="com.example.malakdianadewi.butang.Login" />
+        <activity android:name="com.example.malakdianadewi.butang.Register" />
+        <activity android:name="com.example.malakdianadewi.butang.tambahCatatan" />
         <activity
-            android:name=".menu"
+            android:name="com.example.malakdianadewi.butang.menu"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.example.malakdianadewi.moneymanager"
+            android:authorities="com.example.malakdianadewi.butang"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -45,12 +45,12 @@
                 android:resource="@xml/file_list" />
         </provider>
 
-        <activity android:name=".Graph" />
-        <activity android:name=".GraphExpenses" />
+        <activity android:name="com.example.malakdianadewi.butang.Graph" />
+        <activity android:name="com.example.malakdianadewi.butang.GraphExpenses" />
         <activity
-            android:name=".AboutUs"
+            android:name="com.example.malakdianadewi.butang.AboutUs"
             android:label="Back"
-            android:parentActivityName=".menu" />
+            android:parentActivityName="com.example.malakdianadewi.butang.menu" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -64,9 +64,9 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="com.example.malakdianadewi.butang.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.example.malakdianadewi.butang.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -74,7 +74,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MapsActivity2"
+            android:name="com.example.malakdianadewi.butang.MapsActivity2"
             android:label="@string/title_activity_maps2"></activity>
     </application>
 

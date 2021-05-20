@@ -1,17 +1,13 @@
-package com.example.malakdianadewi.moneymanager;
+package com.example.malakdianadewi.butang;
 
 /**
  * Created by Malak Diana Dewi on 05/12/2018.
  */
 import android.content.ContentValues;
 import android.content.Context;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 

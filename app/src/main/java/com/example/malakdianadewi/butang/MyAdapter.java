@@ -1,9 +1,10 @@
-package com.example.malakdianadewi.moneymanager;
+package com.example.malakdianadewi.butang;
 
 /**
  * Created by Malak Diana Dewi on 10/12/2018.
  */
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -47,7 +48,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, final int position) {
+    public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
 // - mengambil elemen dari dataset (ArrayList) pada posisi tertentu
 // - mengeset isi view dengan elemen dari dataset tersebut
         final String name = rvTgl.get(position);
