@@ -11,7 +11,7 @@
     <string name="update">UPDATE</string>
     <string name="hutang">HUTANG</string>
     <string name="lunas">LUNAS</string>
-    <string name="total">TOTAL</string>
+    <string name="total">TOTAL HUTANG</string>
     <string name="date">Date</string>
     <string name="kategori">Category</string>
     <string name="jumlah">Amount</string>

@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/birumuda"
+    android:orientation="vertical"
     android:paddingLeft="25dp"
- android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.malakdianadewi.butang.menu"
     tools:showIn="@layout/app_bar_menu">
@@ -14,114 +15,160 @@
 
         android:layout_width="320dp"
         android:layout_height="100dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="20dp"
-        app:cardBackgroundColor="@color/kuning1">
+        app:cardBackgroundColor="@color/kuning1"
+        app:cardCornerRadius="15dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="11dp"
+            android:paddingLeft="10dp"
             android:paddingTop="20dp">
 
             <TextView
-                android:id="@+id/txtincome"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/leter"
-                android:gravity="center_horizontal"
-                android:text="@string/hutang"
-                android:textAlignment="center"
-                android:textColor="@color/putih"
-                android:textColorHint="@color/putih"
-                android:textSize="20dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/txtexp"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/txtincome"
-                android:fontFamily="@font/leter"
-                android:gravity="center_horizontal"
-                android:text="@string/lunas"
-                android:textAlignment="center"
-                android:textColor="@color/putih"
-                android:textColorHint="@color/putih"
-                android:textSize="20dp"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/txtbl"
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/txtexp"
-                android:fontFamily="@font/leter"
-                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/antipasto"
 
                 android:text="@string/total"
                 android:textAlignment="center"
-                android:textColor="@color/putih"
-                android:textColorHint="@color/putih"
-                android:textSize="20dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/income"
-                android:layout_width="100dp"
-                android:layout_height="70dp"
-                android:layout_below="@id/txtincome"
-                android:fontFamily="@font/leter"
-                android:gravity="center_horizontal"
-
-                android:text="17000"
-                android:textAlignment="center"
-                android:textColor="@color/putih"
-                android:textColorHint="@color/putih"
-                android:textSize="26dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/expenses"
-                android:layout_width="100dp"
-                android:layout_height="70dp"
-                android:layout_below="@id/txtincome"
-                android:layout_toRightOf="@id/income"
-                android:fontFamily="@font/leter"
-                android:gravity="center_horizontal"
-                android:text="17000"
-                android:textAlignment="center"
-                android:textColor="@color/putih"
-                android:textColorHint="@color/putih"
-                android:textSize="26dp"
-                android:textStyle="bold" />
+                android:textColor="@color/hitam1"
+                android:textColorHint="@color/hitam1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
 
             <TextView
                 android:id="@+id/balance"
-                android:layout_width="100dp"
-                android:layout_height="70dp"
-                android:layout_below="@id/txtincome"
-                android:layout_toRightOf="@id/expenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtbl"
+                android:layout_marginTop="-1dp"
                 android:fontFamily="@font/leter"
-                android:gravity="center_horizontal"
                 android:text="17000"
                 android:textAlignment="center"
-                android:textColor="@color/putih"
-                android:textColorHint="@color/putih"
-                android:textSize="26dp"
-                android:textStyle="bold" />
+                android:textColor="@color/hitam1"
+                android:textColorHint="@color/hitam1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="153dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            app:cardBackgroundColor="@color/merahmuda"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtincome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/antipasto"
+                    android:gravity="center_horizontal"
+                    android:text="@string/hutang"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam1"
+                    android:textColorHint="@color/hitam1"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/income"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtincome"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/leter"
+
+                    android:text="17000"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam1"
+                    android:textColorHint="@color/hitam1"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="153dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            app:cardBackgroundColor="@color/hijau"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtexp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/antipasto"
+                    android:text="@string/lunas"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam1"
+                    android:textColorHint="@color/hitam1"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/expenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtexp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/leter"
+                    android:text="17000"
+                    android:textAlignment="center"
+                    android:textColor="@color/hitam1"
+                    android:textColorHint="@color/hitam1"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
     <android.support.v7.widget.CardView
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        app:cardBackgroundColor="@color/biru">
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="15dp">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_main"
