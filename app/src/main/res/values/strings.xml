@@ -9,9 +9,9 @@
     <string name="title_activity_maps2">Map</string>
     <string name="save">SAVE</string>
     <string name="update">UPDATE</string>
-    <string name="income">INCOME</string>
-    <string name="expenses">EXPENSES</string>
-    <string name="balance">BALANCE</string>
+    <string name="hutang">HUTANG</string>
+    <string name="lunas">LUNAS</string>
+    <string name="total">TOTAL</string>
     <string name="date">Date</string>
     <string name="kategori">Category</string>
     <string name="jumlah">Amount</string>
