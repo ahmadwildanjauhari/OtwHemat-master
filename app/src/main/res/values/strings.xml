@@ -31,4 +31,5 @@
     <string name="logout">Logout</string>
     <string name="next">Next</string>
     <string name="find_us">Find Us</string>
+    <string name="back">Back</string>
 </resources>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,7 +18,8 @@
             android:layout_height="30dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/bek">
+            android:background="@drawable/bek"
+            android:layout_marginStart="10dp">
 
         </Button>
 
@@ -29,7 +29,7 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/sLideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="512dp"></android.support.v4.view.ViewPager>
+        android:layout_height="512dp" />
 
     <LinearLayout
         android:id="@+id/dotLayout"
@@ -40,7 +40,7 @@
         android:layout_centerHorizontal="true"
 
         android:orientation="horizontal"
-        android:visibility="visible"></LinearLayout>
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/prevBtn"
@@ -50,7 +50,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="19dp"
         android:background="#00cccccc"
-        android:text="Back"
+        android:text="@string/back"
         android:visibility="invisible"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="19dp" />
@@ -65,7 +65,8 @@
         android:background="@color/colorTransparantWhite"
         android:text="@string/next"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="17dp" />
+        android:layout_marginRight="17dp"
+        tools:ignore="RelativeOverlap" />
 
     <Button
         android:id="@+id/mapsBtn"
